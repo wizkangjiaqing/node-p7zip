@@ -6,9 +6,9 @@ import { run } from './binary';
 export async function extract(
   archive: string,
   destination?: string | null,
+  full: boolean = true,
   fileFilter?: string | string[] | null,
   switches?: string | string[] | null,
-  full: boolean = true,
 ): Promise<void> {
   let args: string[] = [full ? 'x' : 'e'];
   if (destination) {
