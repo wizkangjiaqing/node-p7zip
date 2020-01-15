@@ -1,7 +1,5 @@
 import { spawn } from 'child_process';
-import * as path from 'path';
-
-const bin = path.resolve(path.join(__dirname, '..', '..', 'bin', '7za'));
+import {path7za} from '7zip-bin';
 
 /**
  * Run 7za using arguments, arguments may be inline or in an array
@@ -10,7 +8,7 @@ const bin = path.resolve(path.join(__dirname, '..', '..', 'bin', '7za'));
  */
 export function run(args: string[]): Promise<string[]> {
   return new Promise((resolve, reject) => {
-    const cmd = spawn(bin, args);
+    const cmd = spawn(path7za, args);
     let out = '';
 
     cmd.stdout.on('data', lines => {

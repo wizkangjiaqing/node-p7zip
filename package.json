@@ -37,7 +37,7 @@
     ],
     "license": "MIT",
     "dependencies": {
-        "decompress": "^4.0.0"
+        "7zip-bin": "^5.0.3"
     },
     "devDependencies": {
         "@gojob/tslint-config": "^1.0.0",
