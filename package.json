@@ -15,8 +15,7 @@
         "test": "jest --silent=false --config=jest.json --testRegex='/src/.*\\.test\\.ts$'",
         "install": "node scripts/install.js",
         "lint": "tslint -c ./tslint.json -p ./tsconfig.json -t verbose",
-        "build": "tsc -p ./tsconfig.json",
-        "prepack": "tsc -p ./tsconfig.json"
+        "build": "tsc -p ./tsconfig.json"
     },
     "repository": {
         "type": "git",
