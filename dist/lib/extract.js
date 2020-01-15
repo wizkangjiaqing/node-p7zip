@@ -10,7 +10,7 @@ var __awaiter = (this && this.__awaiter) || function (thisArg, _arguments, P, ge
 };
 Object.defineProperty(exports, "__esModule", { value: true });
 const binary_1 = require("./binary");
-function extract(archive, destination, fileFilter, switches, full = true) {
+function extract(archive, destination, full = true, fileFilter, switches) {
     return __awaiter(this, void 0, void 0, function* () {
         let args = [full ? 'x' : 'e'];
         if (destination) {
