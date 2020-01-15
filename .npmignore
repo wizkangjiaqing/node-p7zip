@@ -5,7 +5,6 @@ node_modules
 .npmignore
 .DS_Store
 coverage
-src
 .travis.yml
 .prettierrc
 jest.json
