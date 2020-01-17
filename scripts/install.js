@@ -8,5 +8,6 @@ const {path7za} = require('7zip-bin');
     if (process.platform === 'win32') {
         return;
     }
-    fs.chmodSync(path7za, 755);
+    // result 361 ???????
+    // fs.chmodSync(path7za, 755);
 })();
