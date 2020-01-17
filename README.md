@@ -4,6 +4,10 @@
 [![Coverage Status](https://coveralls.io/repos/github/jbdemonte/node-p7zip/badge.svg?branch=master)](https://coveralls.io/github/jbdemonte/node-p7zip?branch=master)
 ![node (tag)](https://img.shields.io/node/v/p7zip/latest.svg)
 
+## Change log
+
+Use [7zip-bin](https://github.com/develar/7zip-bin) to avoid to download and unzip
+
 ## Description
 
 Use `p7zip` directly in JavaScript or TypeScript.  
